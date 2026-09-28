@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Labib — Portfolio</title>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">Labib</a>
+        <nav class="navigation">
+            <a href="#about">About</a>
+            <a href="#timeline">Timeline</a>
+            <a href="#toolbox">Toolbox</a>
+            <a href="#projects">Projects</a>
+            <a href="#personal">Personal</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+ 
+        <div class="hero-text">
+            <p class="hero-eyebrow">Grenoble, France</p>
+            <h2>Hi, I'm Labib<br><span>Computer science Engineering student</span></h2>
+            <h3>Specializing in cybersecurity, network and software engineering <br> </h3>
+            <pre class="hero-terminal"><code>labib@ensimag:~$ whoami
+&gt; second-year student, ENSIMAG — Grenoble INP
+&gt; looking for an internship, June 2027 (2–4 months)<span class="cursor">_</span></code></pre>
+            <a href="#projects" class="main-btn">View my work</a>
+            <div class="social-icons">
+                <a href="https://github.com/labibBegdouri" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/labib-begdouri-777379261/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:labibbegdouri@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-me" id="about">
+        <h2 class="title">About</h2>
+        <div class="content">
+        <div class="hero-image">
+            <img src="assets/profile.jpeg" alt="Labib">
+        </div>
+            <div class="about-text">
+                <p>I'm a second-year student at ENSIMAG (Grenoble INP), studying Computer Science and Applied Mathematics with a Cyber + Software engineering specialization. I'm looking for a 2 to 4 month internship starting June 2027.</p>
+                <p>I'm passionate about cybersecurity and about building things. I'm curious about how systems work, and even more about how they break. I learn best by making things myself, and most of my projects start as a way to understand something properly.</p>
+                <p>Outside of code, you'll usually find me hiking in the mountains around Grenoble.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="timeline-section" id="timeline">
+        <h2 class="title">Timeline</h2>
+        <ol class="timeline">
+            <li class="timeline-item">
+                <span class="timeline-date">2025 — Present</span>
+                <span class="timeline-tag">Education</span>
+                <h3>ENSIMAG (Grenoble INP)</h3>
+                <p>Engineering degree in Computer Science &amp; Applied Mathematics. Networks &amp; Security, Hardware/Software interfacing on RISC-V, Algorithmics, Probability, Optimization, Language Theory. 2026–2027: Internet Principles, Generic Programming in Rust, OS &amp; Cloud Computing, OOP, Code Analysis for Safety, Compilation, Security.</p>
+            </li>
+            <li class="timeline-item">
+                <span class="timeline-date">2023 — 2025</span>
+                <span class="timeline-tag">Education</span>
+                <h3>CPGE — Lycée Moulay Al Hassan</h3>
+                <p>Preparatory classes for Grandes Écoles, Mathematics and Physics track (MP).</p>
+            </li>
+            <li class="timeline-item">
+                <span class="timeline-date">2023</span>
+                <span class="timeline-tag">Education</span>
+                <h3>Scientific Baccalaureate</h3>
+                <p>Mathematics track — With High Honors.</p>
+            </li>
+            <li class="timeline-item">
+                <span class="timeline-date">Jan — Apr 2023</span>
+                <span class="timeline-tag">Experience</span>
+                <h3>Mathematics Tutor — Al Amal Center, Tangier</h3>
+                <p>Supported 22 middle-school students with personalized tutoring, simplifying complex theoretical concepts and teaching rigorous work methods adapted to each student's level.</p>
+            </li>
+        </ol>
+    </section>
+
+    <section class="toolbox" id="toolbox">
+        <h2 class="title">Toolbox</h2>
+        <div class="tool-groups">
+            <div class="tool-group">
+                <h3>Programming</h3>
+                <ul class="tags">
+                    <li>Python</li><li>Go</li><li>C</li><li>SQL</li>
+                </ul>
+            </div>
+            <div class="tool-group">
+                <h3>Security &amp; Networking</h3>
+                <ul class="tags">
+                    <li>Wireshark</li><li>Packet analysis</li><li>Intrusion detection</li><li>Cloud security (in progress)</li>
+                </ul>
+            </div>
+            <div class="tool-group">
+                <h3>Data &amp; Tools</h3>
+                <ul class="tags">
+                    <li>NumPy</li><li>pandas</li><li>scikit-learn</li><li>matplotlib</li><li>Git</li><li>Docker</li><li>Bash</li><li>VirtualBox</li>
+                </ul>
+            </div>
+            <div class="tool-group">
+                <h3>Languages</h3>
+                <ul class="tags">
+                    <li>French — fluent</li><li>English — B2+</li><li>Arabic — native</li><li>Spanish — beginner</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="title">Projects</h2>
+        <div class="project-grid">
+
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="assets/nids.jpg" alt="Network Intrusion Detection System">
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Go · gopacket · Network security</p>
+                    <h3 class="project-title">NIDS — Network Intrusion Detection System</h3>
+                    <p class="project-desc">Built to get hands-on experience with core networking and cybersecurity concepts. Captures live traffic via gopacket, tracks per-IP behavioral statistics over sliding time windows, and uses threshold-based analysis to flag reconnaissance scans and flooding attacks.</p>
+                    <a href="https://github.com/labibBegdouri/NIDS" class="more-details">View repo →</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="assets/neorando.jpeg" alt="Neorando hiking trail chatbot interface">
+                </div>
+                <div class="project-info">
+                    <p class="project-category">🏆 1st place · NSIGMA × NEOVISION 2026</p>
+                    <h3 class="project-title">Neorando</h3>
+                    <p class="project-desc">AI agent answering natural-language questions about hiking trails around Grenoble. Python pipeline combining web scraping, JSON data structuring, and SQLite storage; handles multi-criteria filtering and optimized aggregation queries; prompts tuned for gpt-5-mini to improve response relevance.</p>
+                    <a href="https://github.com/labibBegdouri/hackathon-neorando" class="more-details">View repo →</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="assets/pstsql.png" alt="REST API with PostgreSQL">
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Go · PostgreSQL · Docker</p>
+                    <h3 class="project-title">REST API + PostgreSQL</h3>
+                    <p class="project-desc">Built from raw HTTP up: JWT/bcrypt auth, CRUD with middleware, Redis caching, multi-stage Docker builds, CI pipeline.</p>
+                    <a href="#" class="more-details">View repo →</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="assets/C.jpeg" alt="JPEG Encoder in C">
+                </div>
+                <div class="project-info">
+                    <p class="project-category">C · Systems programming</p>
+                    <h3 class="project-title">JPEG Encoder in C</h3>
+                    <p class="project-desc">Standard-compliant JPEG encoder implementing the main steps of the JPEG algorithm in C, with a strip-based processing approach designed to significantly reduce memory footprint during encoding. Developed as a team with Git-based version control.</p>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="assets/seg.png" alt="Satellite image segmentation of mountain lakes">
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Python · Applied Mathematics</p>
+                    <h3 class="project-title">Satellite Image Segmentation (Mountain Lakes)</h3>
+                    <p class="project-desc">Applied math project mapping mountain lakes despite weather-related variability. Implemented the Chan-Vese model and Level Sets in Python for contour segmentation without relying on the image gradient. Developed within a 4-person team with module distribution and code reviews.</p>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+
+
+    <section class="contact" id="contact">
+        <h2 class="title">Let's work together</h2>
+        <div class="contact-grid">
+            <a class="contact-card" href="mailto:labibbegdouri@gmail.com">
+                <i class="fas fa-envelope"></i>
+                <div>
+                    <h3>Email</h3>
+                    <p>labibbegdouri@gmail.com</p>
+                </div>
+            </a>
+            <a class="contact-card" href="https://github.com/labibBegdouri">
+                <i class="fab fa-github"></i>
+                <div>
+                    <h3>GitHub</h3>
+                    <p>github.com/labibBegdouri</p>
+                </div>
+            </a>
+            <a class="contact-card" href="https://www.linkedin.com/in/labib-begdouri-777379261/">
+                <i class="fab fa-linkedin"></i>
+                <div>
+                    <h3>LinkedIn</h3>
+                    <p>linkedin.com/in/labib-begdouri</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer-title">© <span>Labib</span></p>
+        <div class="social-icons">
+            <a href="https://github.com/labibBegdouri"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/labib-begdouri-777379261/"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
